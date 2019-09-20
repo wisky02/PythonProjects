@@ -13,9 +13,6 @@ def choosing_problem():
 			print("You have chosen manual opperation")
 		elif (run_choice == "S"):
 			print("You have chosen simluated opperation")
-		elif (run_choice == "kyrie"):
-			print("Follow the rules please missy")
-			continue
 		else:
 			print bcolours.WARNING +  "ERROR: Please choose a valid character: (M) or (S)" +bcolours.ENDC
 			continue
